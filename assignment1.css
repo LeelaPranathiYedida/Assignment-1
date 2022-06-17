@@ -1,0 +1,266 @@
+.header1{
+	background: linear-gradient(to right, #1859b4 0%, #0467f1 100%);
+
+
+	color: rgb(255, 255, 255);
+	height: 40px;
+	padding-left: 200px;
+	padding-top: 20px;
+}
+.title img{
+top: 20px;
+left: 5%;
+height: 25px;
+width: 90px;
+}
+.form1{
+	float: right;
+	padding-right: 200px;
+	width: 20px;
+}
+.btn{
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: -20px;
+	background:#0467f1;
+	border-color:rgb(255, 255, 255) ;
+	color: rgb(255, 255, 255);
+	font-size: 0.4em;
+	width: 100px;
+
+}
+.btn:hover{
+	color: black;
+
+}
+.header2{
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	padding: 10px;
+	padding-left: 200px;
+
+
+}
+.header2 img{
+	size: 5px 2px;
+}
+.header2 a{
+	color: white;
+	text-decoration: none;
+
+}
+.mail:hover
+{
+		color: grey;
+}
+.phone:hover
+{
+		color: grey;
+}
+.icons{
+	float: right;
+	padding-right: 125px;
+	padding-left: ;
+}
+.nav{
+	color: black;
+	height: 40px;
+	padding-top: 20px;
+	padding-left: 200px;
+	font-family: sans-serif;
+	padding-bottom: 20px;
+}
+.nav a{
+	text-decoration: none;
+	color: black;
+	padding-left: 20px;
+	padding-bottom: 100px;
+}
+.nav a:hover{
+color: grey;}
+.title{
+	display: inline;
+}
+.nav1{
+	display: inline;
+	padding-left: 50px;
+	padding-bottom: 100px;
+
+}
+.nav1 a{
+		margin-bottom:100px;
+}
+.nav form{
+	display: inline;
+	padding-left: 90px;
+}
+.nav button{
+	font-size: 10px;
+	border-radius: 10px;
+	color: white;
+	background-color: black;
+}
+.body{
+	background-color: rgb(230, 240, 240);
+	height: 200px;
+	 background-image: url('macbook6.jpg');
+	 background-size:cover;
+	 background-repeat: no-repeat;
+	 padding-bottom: 200px;
+}
+.body1{
+	color: rgb(70, 52, 235);
+	font-size: 15px;
+	font-family: sans-serif;
+	padding-top: 50px;
+	padding-left: 200px;
+	line-height: 0.3em;
+}
+.body2{
+	font-family: sans-serif;
+	padding-left: 200px;
+	font-size: 15px;
+}
+.body3{
+	padding-left: 200px;
+}
+.button{
+	padding-left: 200px;
+	padding-bottom: 50px;
+}
+.btn1{
+	background: linear-gradient(to right, #1859b4 0%, #0467f1 100%);
+	color: white;
+	text-align: center;
+	border-radius:5px ;
+	padding:10px ;
+	width: 140px;
+}
+.btn1:hover{
+	color: black;
+
+}
+.btn2{
+	margin-left:10px;
+	text-align: center;
+	border-radius:5px ;
+	padding:10px ;
+	width: 140px;
+}
+.btn2:hover{
+	color: grey;
+
+}
+.services{
+	background-color: white;
+	height: 450px;
+}
+.serve{
+	padding-top: 50px;
+	text-align: center;
+	color:rgb(70, 52, 235);
+	font-family: sans-serif;
+	line-height: 1em;
+	font-size: 0.65em;
+}
+.serve1{
+	line-height: 1em;
+	text-align: center;
+	font-family: sans-serif;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: 10px;
+	height: 200px;
+	padding: 20px;
+
+	justify-content:space-evenly;
+	align-items: flex-center ;
+	border-color: black;
+}
+.container-item1{
+	border: 2px solid grey;
+	border-radius: 5px;
+	text-align: center;
+	width: 250px;
+}
+.container-item2{
+	border: 2px solid grey;border-radius: 5px;
+	text-align: center;
+	width: 250px;
+}
+.container-item3{
+	border: 2px solid grey;border-radius: 5px;
+	text-align: center;
+	width: 250px;
+}
+.container-item1 p{
+	text-align: center;
+}
+.container-item2 p{
+	text-align: center;
+}
+.container-item3 p{
+	text-align: center;
+}
+.button1{
+	display: flex;
+	justify-content: center;
+}
+.btn3{
+	background: linear-gradient(to right, #1859b4 0%, #0467f1 100%);
+	color: white;
+	text-align: center;
+	border-radius:5px ;
+	padding:10px ;
+	width: 140px;
+
+}
+.btn3:hover{
+	color: black;
+}
+.footer{
+	background-color: rgb(227, 232, 232);
+	height: 350px;
+}
+.reason{
+	padding-top: 50px;
+	text-align: center;
+	color:rgb(70, 52, 235);
+	font-family: sans-serif;
+	line-height: 1em;
+	font-size: 0.65em;
+}
+.choose{
+	line-height: 1em;
+	text-align: center;
+	font-family: sans-serif;
+}
+.mainflex{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-auto-rows: minmax(100px, auto);
+justify-content: space-evenly;
+align-content: center;
+padding-left: 200px;
+font-size: 0.7em;
+}
+.mainflex div{
+	padding-right: 30px;
+}
+.container-item1,.container-item2,.container-item3 i{
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
